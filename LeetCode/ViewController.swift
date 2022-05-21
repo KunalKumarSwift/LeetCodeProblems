@@ -25,6 +25,8 @@ class ViewController: UIViewController {
 //        pairSum()
 //        sort012()
 //        binarySearch()
-        trappingRainWater()
+//        trappingRainWater()
+//        ZeroBasedPermutation()
+        Operations()
     }
 }
