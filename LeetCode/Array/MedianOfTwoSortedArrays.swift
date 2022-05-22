@@ -9,6 +9,8 @@
  https://leetcode.com/problems/median-of-two-sorted-arrays/
  */
 
+/// Another approach is written in merge sort which does the same thing.
+
 import UIKit
 
 private class Solution {

@@ -28,6 +28,8 @@ class ViewController: UIViewController {
 //        trappingRainWater()
 //        ZeroBasedPermutation()
 //        Operations()
-        MedianOfTwoSortedArrays()
+//        MedianOfTwoSortedArrays()
+//        quickSort()
+        mergeSort()
     }
 }

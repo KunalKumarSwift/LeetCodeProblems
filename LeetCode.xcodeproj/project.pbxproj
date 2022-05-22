@@ -33,6 +33,9 @@
 		5F8132BB27684211005E6DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8132B927684211005E6DAD /* LaunchScreen.storyboard */; };
 		5F8132C427684230005E6DAD /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8132C327684230005E6DAD /* AddTwoNumbers.swift */; };
 		5F94E7E42839DBED00AD1371 /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */; };
+		5F94E7E8283AD0CA00AD1371 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7E7283AD0CA00AD1371 /* QuickSort.swift */; };
+		5F94E7EA283AD51000AD1371 /* quicksort.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F94E7E9283AD51000AD1371 /* quicksort.png */; };
+		5F94E7EC283AD6F600AD1371 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7EB283AD6F600AD1371 /* MergeSort.swift */; };
 		5FFD263A27C88A4700D7B894 /* PowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD263927C88A4700D7B894 /* PowerOfThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,9 @@
 		5F8132BC27684211005E6DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8132C327684230005E6DAD /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
+		5F94E7E7283AD0CA00AD1371 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		5F94E7E9283AD51000AD1371 /* quicksort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quicksort.png; sourceTree = "<group>"; };
+		5F94E7EB283AD6F600AD1371 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		5FFD263927C88A4700D7B894 /* PowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +108,8 @@
 		5F55B9732803DBCD00A8D17E /* Algo */ = {
 			isa = PBXGroup;
 			children = (
-				5F55B9742803DBDB00A8D17E /* BinarySearch.swift */,
+				5F94E7E6283AD0B600AD1371 /* Searching */,
+				5F94E7E5283AD0B000AD1371 /* Sorting */,
 			);
 			path = Algo;
 			sourceTree = "<group>";
@@ -170,6 +177,24 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		5F94E7E5283AD0B000AD1371 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				5F94E7E7283AD0CA00AD1371 /* QuickSort.swift */,
+				5F94E7E9283AD51000AD1371 /* quicksort.png */,
+				5F94E7EB283AD6F600AD1371 /* MergeSort.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		5F94E7E6283AD0B600AD1371 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				5F55B9742803DBDB00A8D17E /* BinarySearch.swift */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F94E7EA283AD51000AD1371 /* quicksort.png in Resources */,
 				5F8132BB27684211005E6DAD /* LaunchScreen.storyboard in Resources */,
 				5F8132B827684211005E6DAD /* Assets.xcassets in Resources */,
 				5F51DD4C281E4E1800A1E5AC /* ReadMe.md in Resources */,
@@ -270,6 +296,7 @@
 				5F61565A27F4D61B0042BBD9 /* ArrayAlternateSwap.swift in Sources */,
 				5F55B97027FE93AA00A8D17E /* Sort012.swift in Sources */,
 				5F61565C27F4DE850042BBD9 /* FindUnique.swift in Sources */,
+				5F94E7E8283AD0CA00AD1371 /* QuickSort.swift in Sources */,
 				5F8132B32768420E005E6DAD /* ViewController.swift in Sources */,
 				5F7B919027C7477200176EF4 /* ComplementOfBaseTenInteger.swift in Sources */,
 				5F8132C427684230005E6DAD /* AddTwoNumbers.swift in Sources */,
@@ -281,6 +308,7 @@
 				5F7B918E27C7380B00176EF4 /* ReverseInteger.swift in Sources */,
 				5F61565E27F4ECF40042BBD9 /* UniqueOccurences.swift in Sources */,
 				5F61566027F54FA50042BBD9 /* find-all-duplicates-in-an-array.swift in Sources */,
+				5F94E7EC283AD6F600AD1371 /* MergeSort.swift in Sources */,
 				5F55B9722803D03700A8D17E /* Triplet.swift in Sources */,
 				5F51DD4F2839589500A1E5AC /* ZeroBasedPermutation.swift in Sources */,
 				5F7B919227C74F8100176EF4 /* PowerOfTwo.swift in Sources */,
