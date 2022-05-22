@@ -32,6 +32,7 @@
 		5F8132B827684211005E6DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8132B727684211005E6DAD /* Assets.xcassets */; };
 		5F8132BB27684211005E6DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8132B927684211005E6DAD /* LaunchScreen.storyboard */; };
 		5F8132C427684230005E6DAD /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8132C327684230005E6DAD /* AddTwoNumbers.swift */; };
+		5F94E7E42839DBED00AD1371 /* MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */; };
 		5FFD263A27C88A4700D7B894 /* PowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD263927C88A4700D7B894 /* PowerOfThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		5F8132BA27684211005E6DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F8132BC27684211005E6DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8132C327684230005E6DAD /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 		5FFD263927C88A4700D7B894 /* PowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				5F51DD4E2839589500A1E5AC /* ZeroBasedPermutation.swift */,
 				5F51DD502839607300A1E5AC /* greatestWealth.swift */,
 				5F51DD52283960E300A1E5AC /* Operations.swift */,
+				5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				5F7B919027C7477200176EF4 /* ComplementOfBaseTenInteger.swift in Sources */,
 				5F8132C427684230005E6DAD /* AddTwoNumbers.swift in Sources */,
 				5F8132AF2768420E005E6DAD /* AppDelegate.swift in Sources */,
+				5F94E7E42839DBED00AD1371 /* MedianOfTwoSortedArrays.swift in Sources */,
 				5F8132B12768420E005E6DAD /* SceneDelegate.swift in Sources */,
 				5F51DD512839607300A1E5AC /* greatestWealth.swift in Sources */,
 				5F7B918B27B9E82A00176EF4 /* WindowSubString.swift in Sources */,

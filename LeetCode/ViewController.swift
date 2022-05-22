@@ -27,6 +27,7 @@ class ViewController: UIViewController {
 //        binarySearch()
 //        trappingRainWater()
 //        ZeroBasedPermutation()
-        Operations()
+//        Operations()
+        MedianOfTwoSortedArrays()
     }
 }
