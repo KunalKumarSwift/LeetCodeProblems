@@ -30,6 +30,7 @@ class ViewController: UIViewController {
 //        Operations()
 //        MedianOfTwoSortedArrays()
 //        quickSort()
-        mergeSort()
+//        mergeSort()
+        threeSum()
     }
 }

@@ -36,6 +36,7 @@
 		5F94E7E8283AD0CA00AD1371 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7E7283AD0CA00AD1371 /* QuickSort.swift */; };
 		5F94E7EA283AD51000AD1371 /* quicksort.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F94E7E9283AD51000AD1371 /* quicksort.png */; };
 		5F94E7EC283AD6F600AD1371 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7EB283AD6F600AD1371 /* MergeSort.swift */; };
+		5F94E7EE283B01CC00AD1371 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7ED283B01CC00AD1371 /* 3Sum.swift */; };
 		5FFD263A27C88A4700D7B894 /* PowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD263927C88A4700D7B894 /* PowerOfThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		5F94E7E7283AD0CA00AD1371 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		5F94E7E9283AD51000AD1371 /* quicksort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quicksort.png; sourceTree = "<group>"; };
 		5F94E7EB283AD6F600AD1371 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		5F94E7ED283B01CC00AD1371 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		5FFD263927C88A4700D7B894 /* PowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 				5F51DD502839607300A1E5AC /* greatestWealth.swift */,
 				5F51DD52283960E300A1E5AC /* Operations.swift */,
 				5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */,
+				5F94E7ED283B01CC00AD1371 /* 3Sum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				5F55B9752803DBDB00A8D17E /* BinarySearch.swift in Sources */,
 				5F51DD53283960E300A1E5AC /* Operations.swift in Sources */,
 				5F61565A27F4D61B0042BBD9 /* ArrayAlternateSwap.swift in Sources */,
+				5F94E7EE283B01CC00AD1371 /* 3Sum.swift in Sources */,
 				5F55B97027FE93AA00A8D17E /* Sort012.swift in Sources */,
 				5F61565C27F4DE850042BBD9 /* FindUnique.swift in Sources */,
 				5F94E7E8283AD0CA00AD1371 /* QuickSort.swift in Sources */,
