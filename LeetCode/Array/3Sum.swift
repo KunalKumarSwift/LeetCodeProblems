@@ -32,7 +32,6 @@ private class Solution {
     }
 
     func findPairForItem(currentIndex: Int, array: [Int]) -> [[Int]] {
-
         var result: [[Int]] = [[Int]]()
         var start = currentIndex + 1
         var end = array.count - 1
@@ -53,9 +52,7 @@ private class Solution {
                 end = end - 1
             }
         }
-
         return result
-
     }
 }
 
