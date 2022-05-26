@@ -38,6 +38,7 @@
 		5F94E7EC283AD6F600AD1371 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7EB283AD6F600AD1371 /* MergeSort.swift */; };
 		5F94E7EE283B01CC00AD1371 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7ED283B01CC00AD1371 /* 3Sum.swift */; };
 		5F94E7F0283EEEE600AD1371 /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7EF283EEEE600AD1371 /* ThreeSumClosest.swift */; };
+		5F94E7F2283EF5A100AD1371 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7F1283EF5A100AD1371 /* 4Sum.swift */; };
 		5FFD263A27C88A4700D7B894 /* PowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD263927C88A4700D7B894 /* PowerOfThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		5F94E7EB283AD6F600AD1371 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		5F94E7ED283B01CC00AD1371 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		5F94E7EF283EEEE600AD1371 /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
+		5F94E7F1283EF5A100AD1371 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
 		5FFD263927C88A4700D7B894 /* PowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				5F94E7E32839DBED00AD1371 /* MedianOfTwoSortedArrays.swift */,
 				5F94E7ED283B01CC00AD1371 /* 3Sum.swift */,
 				5F94E7EF283EEEE600AD1371 /* ThreeSumClosest.swift */,
+				5F94E7F1283EF5A100AD1371 /* 4Sum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				5F94E7F0283EEEE600AD1371 /* ThreeSumClosest.swift in Sources */,
 				5F51DD512839607300A1E5AC /* greatestWealth.swift in Sources */,
 				5F7B918B27B9E82A00176EF4 /* WindowSubString.swift in Sources */,
+				5F94E7F2283EF5A100AD1371 /* 4Sum.swift in Sources */,
 				5F7B918E27C7380B00176EF4 /* ReverseInteger.swift in Sources */,
 				5F61565E27F4ECF40042BBD9 /* UniqueOccurences.swift in Sources */,
 				5F61566027F54FA50042BBD9 /* find-all-duplicates-in-an-array.swift in Sources */,

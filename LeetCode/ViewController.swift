@@ -32,6 +32,7 @@ class ViewController: UIViewController {
 //        quickSort()
 //        mergeSort()
 //        threeSum()
-        threeSumClosest()
+//        threeSumClosest()
+        fourSum()
     }
 }
