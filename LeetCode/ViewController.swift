@@ -33,6 +33,7 @@ class ViewController: UIViewController {
 //        mergeSort()
 //        threeSum()
 //        threeSumClosest()
-        fourSum()
+//        fourSum()
+        removeDuplicates()
     }
 }

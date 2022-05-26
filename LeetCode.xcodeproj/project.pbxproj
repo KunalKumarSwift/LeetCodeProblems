@@ -39,6 +39,7 @@
 		5F94E7EE283B01CC00AD1371 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7ED283B01CC00AD1371 /* 3Sum.swift */; };
 		5F94E7F0283EEEE600AD1371 /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7EF283EEEE600AD1371 /* ThreeSumClosest.swift */; };
 		5F94E7F2283EF5A100AD1371 /* 4Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7F1283EF5A100AD1371 /* 4Sum.swift */; };
+		5F94E7F4283F174700AD1371 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F94E7F3283F174700AD1371 /* RemoveDuplicates.swift */; };
 		5FFD263A27C88A4700D7B894 /* PowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD263927C88A4700D7B894 /* PowerOfThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		5F94E7ED283B01CC00AD1371 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		5F94E7EF283EEEE600AD1371 /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
 		5F94E7F1283EF5A100AD1371 /* 4Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4Sum.swift; sourceTree = "<group>"; };
+		5F94E7F3283F174700AD1371 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		5FFD263927C88A4700D7B894 /* PowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				5F94E7ED283B01CC00AD1371 /* 3Sum.swift */,
 				5F94E7EF283EEEE600AD1371 /* ThreeSumClosest.swift */,
 				5F94E7F1283EF5A100AD1371 /* 4Sum.swift */,
+				5F94E7F3283F174700AD1371 /* RemoveDuplicates.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				5FFD263A27C88A4700D7B894 /* PowerOfThree.swift in Sources */,
 				5F55B9752803DBDB00A8D17E /* BinarySearch.swift in Sources */,
 				5F51DD53283960E300A1E5AC /* Operations.swift in Sources */,
+				5F94E7F4283F174700AD1371 /* RemoveDuplicates.swift in Sources */,
 				5F61565A27F4D61B0042BBD9 /* ArrayAlternateSwap.swift in Sources */,
 				5F94E7EE283B01CC00AD1371 /* 3Sum.swift in Sources */,
 				5F55B97027FE93AA00A8D17E /* Sort012.swift in Sources */,
