@@ -34,6 +34,7 @@ class ViewController: UIViewController {
 //        threeSum()
 //        threeSumClosest()
 //        fourSum()
-        removeDuplicates()
+//        removeDuplicates()
+        LongestSubstring()
     }
 }
