@@ -18,37 +18,52 @@ private class Solution {
         var nums1: [Int] = [2,3,4,5]
         var nums2: [Int] = [1,9,10]
 
-        mergeArrays(firstArray: nums1, secondArray: nums2)
+        print(findMedianSortedArrays(nums1, nums2))
     }
 
-    func mergeArrays(firstArray: [Int], secondArray: [Int]) -> Double {
-        let m = firstArray.count
-        let n = secondArray.count
-        let total = m + n
+
+    func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
+        let m = nums1.count
+        let n = nums2.count
+        let totalLength = m + n
+
+        var startIndex: Int
+        var endIndex: Int
+
+        if totalLength % 2 == 0 {
+            startIndex = (totalLength / 2) - 1
+            endIndex = (totalLength / 2)
+        } else {
+            startIndex = totalLength / 2
+            endIndex = totalLength / 2
+        }
 
         var i = 0
         var j = 0
+        var result: [Int] = []
 
-        var current: Int = 0
-        var previous: Int = 0
+        while i + j <= endIndex {
+            let value1 = i < m ? nums1[i] : Int.max
+            let value2 = j < n ? nums2[j] : Int.max
 
-        for _ in 0...(total / 2) {
-            previous = current
-
-            if i < m && (j >= n || firstArray[i] < secondArray[j]) {
-                current = firstArray[i]
+            if value1 <= value2 {
+                result.append(value1)
                 i += 1
             } else {
-                current = secondArray[j]
+                result.append(value2)
                 j += 1
             }
         }
 
-        if total % 2 == 0 {
-            return Double(previous + current) / 2.0
+        let median: Double
+
+        if totalLength % 2 == 0 {
+            median = (Double(result[startIndex]) + Double(result[endIndex])) / 2.0
         } else {
-            return Double(current)
+            median = Double(result[endIndex])
         }
+
+        return median
     }
 }
 
