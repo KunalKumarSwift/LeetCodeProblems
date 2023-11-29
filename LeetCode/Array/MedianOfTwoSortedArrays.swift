@@ -22,51 +22,33 @@ private class Solution {
     }
 
     func mergeArrays(firstArray: [Int], secondArray: [Int]) -> Double {
-        var nums1 = firstArray
-        var nums2 = secondArray
+        let m = firstArray.count
+        let n = secondArray.count
+        let total = m + n
 
-        let m = nums1.count
-        let n = nums2.count
+        var i = 0
+        var j = 0
 
-        var result: [Int] = [Int]()
+        var current: Int = 0
+        var previous: Int = 0
 
-        var median: Double = 0.0
+        for _ in 0...(total / 2) {
+            previous = current
 
-        while result.count < m+n {
-            if let firstElementInNums1 = nums1.first, let firstElementInNums2 = nums2.first {
-                if firstElementInNums1 > firstElementInNums2 {
-                    result.append(firstElementInNums2)
-                    nums2.removeFirst()
-                } else {
-                    result.append(firstElementInNums1)
-                    nums1.removeFirst()
-                }
-            } else if let firstElementInNums2 = nums2.first, nums1.isEmpty {
-                result.append(firstElementInNums2)
-                nums2.removeFirst()
-            } else if let firstElementInNums1 = nums1.first, nums2.isEmpty {
-                result.append(firstElementInNums1)
-                nums1.removeFirst()
-            }
-        }
-
-        let lengthOfResult = result.count
-
-        if lengthOfResult == 0 {
-            median = 0.0
-        }
-        else if lengthOfResult == 1 {
-            median = Double(result.first!)
-        } else {
-            let middleIndex = (lengthOfResult / 2)
-            if lengthOfResult % 2 == 0 {
-                median = (Double(result[middleIndex - 1]) + Double(result[middleIndex])) / 2.0
+            if i < m && (j >= n || firstArray[i] < secondArray[j]) {
+                current = firstArray[i]
+                i += 1
             } else {
-                median = Double(result[middleIndex])
+                current = secondArray[j]
+                j += 1
             }
-
         }
-        return median
+
+        if total % 2 == 0 {
+            return Double(previous + current) / 2.0
+        } else {
+            return Double(current)
+        }
     }
 }
 
